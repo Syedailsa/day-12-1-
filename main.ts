@@ -1,11 +1,17 @@
-let pizzas: string[] = [
-    "pepparoni",
-    "cheesy beef",
-    "fajitta"
+let animals: string[] = [
+   "cats",
+   "dogs",
+   "mouse",
 ];
 
-pizzas.forEach(pizza => {
-    console.log(`i love ${pizza} pizza!!`)
+animals.forEach(animal => {
+    if(animal == "cats"){
+        console.log(`${animal} are sweet`)
+    }else if(animal == "dogs"){
+        console.log(`${animal} are scary`)
+    }else if(animal == "mouse"){
+        console.log(`${animal} is tiny`)
+    }
 });
 
-console.log("i like pizzas soo much");
+export{}
